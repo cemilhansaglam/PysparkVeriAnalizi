@@ -14,8 +14,8 @@ Bu projede amacımız, `randomuser.me/api` adresinden elde edilen sahte sosyal m
 | Dosya Adı                      | Açıklama                                                                 |
 |-------------------------------|--------------------------------------------------------------------------|
 | `parquet_olusturma.ipynb`       | 10 dakika boyunca 2 saniyelik aralıklarla API'den veri çekilir ve `.parquet` dosyası olarak kaydedilir. |
-| `kullanici_verileri_last.parquet` | Çekilen verilerin `.parquet` formatındaki hali. Spark ile analiz için kullanılır.       |
-| `pyspark_analiz.ipynb`        | Kayıtlı veriler PySpark ile analiz edilir, 3 soruya Spark SQL ve DataFrame API ile cevap verilir.       |
+| `kullanici_verileri.parquet` | Çekilen verilerin `.parquet` formatındaki hali. Spark ile analiz için kullanılır.       |
+| `pysprak_question_answer.ipynb`        | Kayıtlı veriler PySpark ile analiz edilir, 3 soruya Spark SQL ve DataFrame API ile cevap verilir.       |
 
 ---
 
@@ -30,7 +30,7 @@ Bu projede amacımız, `randomuser.me/api` adresinden elde edilen sahte sosyal m
 ## 🚀 Nasıl Çalıştırılır?
 
 1. `parquet_olusturma.ipynb` dosyasını çalıştırarak API'den verileri alın ve `kullanici_verileri_last.parquet` dosyasını oluşturun.
-2. `pyspark_analiz.ipynb` dosyasını PySpark destekli JupyterLab veya terminalde çalıştırarak analizleri gözlemleyin.
+2. `pysprak_question_answer.ipynb` dosyasını PySpark destekli JupyterLab veya terminalde çalıştırarak analizleri gözlemleyin.
 
 ---
 
